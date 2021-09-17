@@ -14,5 +14,9 @@
   div {
     background-color: #eee;
     border: 2px solid #888;
+	border-radius: 0.25em;
+	padding: 1em;
+	margin-inline: auto;
+	width: 800px;
   }
 </style>
