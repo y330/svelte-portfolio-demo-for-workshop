@@ -5,9 +5,13 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. ./src",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ./src"
   },
   "devDependencies": {
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "rollup": "^2.3.4",
