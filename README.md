@@ -11,6 +11,10 @@ Features
 
 Its as simple as that
 
+_preview_
+
+![Screenshot](portfolio-example-site-ss.png)
+
 
 
 
