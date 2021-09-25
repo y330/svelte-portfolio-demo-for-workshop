@@ -1,6 +1,23 @@
-From the developer of this project(Yonah): Instead of npm i will use pnpm, so make sure to download that by typing in your terminal `npm i -g pnpm`
+# Svelte Portfolio with Github API to auto-fetch repositories
+
+## Created for for the first of a two part Svelte workshop in the Kurius discord server
+
+live demo at https://svelte-portfolio-demo-for-workshop.vercel.app
+
+Features
+- Auto fetch your github repos on click of a button
+- Show your r]projects in in a responsive grid
+- No unnecessary dependencies
+
+Its as simple as that
 
 
+
+
+Instead of npm i will use pnpm, so make sure to download that by typing in your terminal `npm i -g pnpm`
+
+
+The following is from the default svelte template readme
 ----
 
 _Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing._
